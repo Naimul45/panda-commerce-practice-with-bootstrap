@@ -17,7 +17,7 @@
 
     <!-- Navigation var -->
     <header class="container">
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container ">
           <a class="navbar-brand" href="#">
             <img src="./images/logo.png" alt="">
@@ -32,13 +32,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shoes</a>
+                <a class="nav-link" href="#shoes">Shoes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Backpack</a>
+                <a class="nav-link" href="#backpack">Backpack</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Subscribe</a>
+                <a class="nav-link" href="#subscribe">Subscribe</a>
               </li>
              
               
@@ -161,9 +161,9 @@
        <!-- blog watch bag and shoes end -->
 
        <!-- card start -->
-       <section class="container my-3">
+       <section class="container my-3"id="shoes">
 
-        <h1>Shoes</h1>
+        <h3>Shoes</h3>
 
        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <div class="col">
@@ -171,6 +171,7 @@
             <img src="./images/shoes/shoe-1.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Supply 350</h5>
+              <h2>$1600</h2>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
             <div class="m-3">
@@ -183,6 +184,7 @@
             <img src="./images/shoes/shoe-2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Nike 360</h5>
+              <h2>$1600</h2>
               <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             </div>
             <div class="m-3">
@@ -195,6 +197,7 @@
             <img src="./images/shoes/shoe-3.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Red Airmax</h5>
+              <h2>$1600</h2>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
             </div>
             <div class="m-3">
@@ -207,6 +210,86 @@
        
 
        <!-- card end -->
+
+       <!-- backpack section start -->
+       <section class="container my-3" id="backpack">
+
+        <h3>Backpack</h3>
+
+       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card h-100 border border-0 shadow-lg">
+            <img src="./images/bags/bag-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Red Laltu Bag</h5>
+              <h2>$1600</h2>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="m-3">
+               <div class="btn btn-primary text-white">Buy Now</div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border border-0 shadow-lg">
+            <img src="./images/bags/bag-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Blue Niltu Bag</h5>
+              <h2>$1600</h2>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="m-3">
+              <div class="btn btn-primary text-white">Buy Now</div>
+           </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border border-0 shadow-lg">
+            <img src="./images/bags/bag-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Black Kaltu Bag</h5>
+              <h2>$1600</h2>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="m-3">
+              <div class="btn btn-primary text-white">Buy Now</div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+        <!-- backpack section end -->
+
+        <!-- subscribe section start -->
+        <section style="height:300px" class="container d-flex justify-content-center align-items-center my-5 bg-info" id="subscribe">
+          <div>
+            <h1>Let's Stay In Touch</h1>
+            <p>Get udates on sales , specials and more</p>
+  
+            <!-- form -->
+            <form>
+              <div class="mb-1">
+             
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+               
+              </div>
+            
+            
+              <button type="submit" class="btn btn-warning ">Submit</button>
+            </form>
+          </div>
+
+        </section>
+
+
+
+        <!-- subscribe section end -->
+        <footer class="text-center">
+          <p><small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+        </footer>
 
     </main>
     
